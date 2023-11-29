@@ -21,3 +21,4 @@ destination="syslog_${date}.log"
 # Copy the source file to the destination file
 cp "$source" "$destination"
 # End
+# helpful source: https://github.com/codefellows/seattle-ops-301d10/blob/main/class-02/challenges/DEMO.md
