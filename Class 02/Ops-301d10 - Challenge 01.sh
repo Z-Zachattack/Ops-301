@@ -10,7 +10,7 @@
 source="/var/log/syslog"
 
 # Generate the date and time suffix using the format %m-%d-%Y
-date=$(date +"%m-%d-%Y")
+date=$(date +"%m-%d-%Y_%H-%M-%S")
 
 # Defines destination file (the syslog file with the date suffix)
 destination="syslog_${date}.log"
