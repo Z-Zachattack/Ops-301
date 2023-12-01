@@ -15,7 +15,7 @@ exit="4. Exit"
 # Main
 while true; do
     clear
-    read -p "What can I do for you?"
+    read -p "What can I do for you? Please choose a number" choice
     echo "$hello"
     echo "$ping"
     echo "$ipinfo"
