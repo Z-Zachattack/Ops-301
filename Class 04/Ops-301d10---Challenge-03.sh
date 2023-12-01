@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script Name:                  Change file permissions
+# Script Name:                  Booleanian
 # Author:                       Zachariah Woodbridge
 # Date of latest revision:      30-Nov-2023
 # Purpose:                      Boolean Conditionals
