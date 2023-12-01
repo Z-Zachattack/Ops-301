@@ -4,6 +4,7 @@
 # Author:                       Zachariah Woodbridge
 # Date of latest revision:      30-Nov-2023
 # Purpose:                      Boolean Conditionals
+# I verified my code in chatGPT, it worked prior to uploading, but I got some minor advice and I took it (making my variables more understandable)
 
 # Declaration of variables
 hello="1. Hello world!"
