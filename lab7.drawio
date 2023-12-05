@@ -1,28 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T23:19:08.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="nkP3wTdGqDdlN6JcAlw_" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T23:41:12.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vLoHU1m1uEOM1P-hVX9V" version="22.1.5" type="github">
   <diagram name="Page-1" id="CdFyWuu7mZfADsBGeCwA">
-    <mxGraphModel dx="1517" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2177" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dAKr0vJBD2ENODxX40tT-2" value="LAN" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#F3E5F5;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="40" width="480" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="dAKr0vJBD2ENODxX40tT-3" value="WAN" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#EFEBE9;" vertex="1" parent="1">
+          <mxGeometry x="170" y="60" width="500" height="200" as="geometry" />
+        </mxCell>
         <mxCell id="9oPIyIbZ-EvlBXnKMK6W-3" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="120" y="190" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-4" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="520" y="190" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="9oPIyIbZ-EvlBXnKMK6W-5" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" parent="1" vertex="1">
-          <mxGeometry x="128.8" y="420" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+          <mxGeometry x="17.60000000000001" y="310" width="62.400000000000006" height="62.400000000000006" as="geometry" />
         </mxCell>
         <mxCell id="9oPIyIbZ-EvlBXnKMK6W-6" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" parent="1" vertex="1">
-          <mxGeometry x="528.8" y="420" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+          <mxGeometry x="209.99999999999994" y="360" width="62.400000000000006" height="62.400000000000006" as="geometry" />
         </mxCell>
-        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-8" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-3" target="9oPIyIbZ-EvlBXnKMK6W-4" edge="1">
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-8" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-3" target="dAKr0vJBD2ENODxX40tT-1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="210" y="470" as="sourcePoint" />
-            <mxPoint x="310" y="370" as="targetPoint" />
+            <mxPoint x="520" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-6" target="9oPIyIbZ-EvlBXnKMK6W-4" edge="1">
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-6" target="9oPIyIbZ-EvlBXnKMK6W-3" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="210" y="470" as="sourcePoint" />
             <mxPoint x="310" y="370" as="targetPoint" />
@@ -37,26 +40,31 @@
         <mxCell id="9oPIyIbZ-EvlBXnKMK6W-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-11" target="9oPIyIbZ-EvlBXnKMK6W-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-11" value="pfsense A&lt;br&gt;(em0) WAN: 10.0.2.5&lt;br&gt;(em1) LAN: 192.168.10.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="60" width="160" height="100" as="geometry" />
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-11" value="pfsense&lt;br&gt;(em0) WAN: 10.0.2.4&lt;br&gt;(em1) LAN: 192.168.1.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="70" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-12" target="9oPIyIbZ-EvlBXnKMK6W-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-12" target="dAKr0vJBD2ENODxX40tT-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-12" value="pfsense B&lt;br&gt;(em0) WAN: 10.0.2.6&lt;br&gt;(em1) LAN: 192.168.20.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="484.40000000000003" y="60" width="151.2" height="100" as="geometry" />
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-12" value="ubuntu&lt;br&gt;(em0) WAN: 10.0.2.100&lt;br&gt;Gateway: 10.0.2.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470.00000000000006" y="160" width="151.2" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9oPIyIbZ-EvlBXnKMK6W-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-15" target="9oPIyIbZ-EvlBXnKMK6W-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-15" value="Hostname: Windows&lt;br&gt;OS: Windows 10&lt;br&gt;LAN: 192.168.10.5&lt;br&gt;Gateway: 192.168.10.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="67.5" y="560" width="185" height="100" as="geometry" />
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-15" value="Hostname: ubuntu-server&lt;br&gt;OS: Ubuntu Server&lt;br&gt;LAN: 192.168.1.101&lt;br&gt;Gateway: 192.168.1.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-43.7" y="450" width="185" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9oPIyIbZ-EvlBXnKMK6W-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-19" target="9oPIyIbZ-EvlBXnKMK6W-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-19" value="Hostname: Linux&lt;br&gt;OS: Ubuntu&lt;br&gt;(enp0s3) LAN: 192.168.20.5&lt;br&gt;Gateway: 192.168.20.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="453.1" y="560" width="213.8" height="100" as="geometry" />
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-19" value="Hostname: kali&lt;br&gt;OS: kali&lt;br&gt;(enp0s3) LAN: 192.168.1.11&lt;br&gt;Gateway: 192.168.1.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="134.3" y="490" width="213.8" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dAKr0vJBD2ENODxX40tT-1" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="421.99999999999994" y="78.80000000000001" width="62.400000000000006" height="62.400000000000006" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
