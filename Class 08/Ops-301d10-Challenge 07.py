@@ -10,25 +10,25 @@
 # Declaration of lists
 
 # Creates a list of fruits 
-fruits = ["apple", "banana", "orange", "pear", "grape", "kiwi", "melon", "peach", "plum", "mango"]
+veggies = ["Beets", "Beans", "Broccoli", "Brussels Sprouts", "Bell Peppers", "Bok Choy", "Black Eyed Peas", "Boniato", "Brooklime", "Butternut Squash"]
 
 # Main
 
 # Prints the first element
-print("Fourth Fruit:", fruits[3])
+print("Fourth Veggie:", veggies[3])
 
 # Prints the sixth through tenth
 print("Sixth Through Tenth Fruits:")
-for fruit in fruits[5:10]:
+for veggie in veggies[5:10]:
     # Prints each fruit
-    print(fruit)
+    print(veggie)
 
 # Adds an element to the list
-fruits[6] = "onion"
+veggies[6] = "onion"
 # Prints the updated value
-print("Updated Seventh Element:", fruits[6])
+print("Updated Seventh Element:", veggies[6])
 
 # Prints the entire list
-print ("New List:", fruits[::1])
+print ("New List:", veggies)
 
 # End
