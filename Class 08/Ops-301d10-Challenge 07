@@ -1,0 +1,34 @@
+# Script Name:                  Ops-301d10: Challenge 07
+# Author:                       Zachariah Woodbridge
+# Date of latest revision:      12/06/2023
+# Purpose:                      Python: Lists and Slices
+
+# Declaration of variables
+
+# Declaration of functions
+
+# Declaration of lists
+
+# Creates a list of fruits 
+fruits = ["apple", "banana", "orange", "pear", "grape", "kiwi", "melon", "peach", "plum", "mango"]
+
+# Main
+
+# Prints the first element
+print("Fourth Fruit:", fruits[3])
+
+# Prints the sixth through tenth
+print("Sixth Through Tenth Fruits:")
+for fruit in fruits[5:10]:
+    # Prints each fruit
+    print(fruit)
+
+# Adds an element to the list
+fruits[6] = "onion"
+# Prints the updated value
+print("Updated Seventh Element:", fruits[6])
+
+# Prints the entire list
+print ("New List:", fruits[::1])
+
+# End
