@@ -13,10 +13,18 @@ c = 2+a
 # Declaration of functions
 
 # Main
+if d >= a:
+    print("ready")
+if d > a:
+    print("set")   
+if a!= d:
+    print("go")
 if b == c:
     print("a equals 2")
 elif b > c:
     print("a equals 3")
-else:
+elif b < c:
     print("a equals 1")
+else:
+    print("a equals 0")
 # End
