@@ -33,11 +33,11 @@ d = 4
 
 # Main
 if d >= a:
-    print("ready")
+    print("Ready")
 if d > a:
-    print("set")   
+    print("Set")   
 if a!= d:
-    print("go")
+    print("GO!!!!!!!!!!")
     print("---------------------------------------------------------------------------------------------------")
     print("I wonder how many a's exist in a random world?")
 if b == c:
