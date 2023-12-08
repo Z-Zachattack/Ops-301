@@ -9,7 +9,7 @@ import random
 a = random.randrange(1, 4)
 b = 2*a
 c = 2+a
-
+d = 4
 # Declaration of functions
 
 # Main
