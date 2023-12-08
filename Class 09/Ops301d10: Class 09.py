@@ -3,6 +3,25 @@
 # Date of latest revision:      07 Dec 2023
 # Purpose:                      Python: Conditional Statements
 
+# 🚀🐍 Unleash the Pythonic Madness: The Psychedelic World of Conditionals! 🌀🔮
+
+# ⚠️ Warning: Enter the Twilight Zone of Code, where ifs, elifs, and else become a mind-bending trip! ⚡🌈
+
+def reality_warp(condition):
+    if condition == "normal":
+        print("Welcome to the Mundane Matrix.")
+    elif condition == "weird":
+        print("Brace yourself for the Quantum Quirks!")
+    else:
+        print("Hold on tight! You're in the Surreal Spiral now!")
+
+# 🌌 Choose your reality:
+reality_warp("normal")
+reality_warp("weird")
+reality_warp("crazy")
+
+# 🌀 Remember, in Python, reality is just a condition away! 🧙‍♂️✨
+
 import random
 # Declaration of variables
 
@@ -19,12 +38,14 @@ if d > a:
     print("set")   
 if a!= d:
     print("go")
+    print("---------------------------------------------------------------------------------------------------")
+    print("I wonder how many a's exist in a random world?")
 if b == c:
-    print("a equals 2")
+    print("Today there are 2 a's!")
 elif b > c:
-    print("a equals 3")
+    print("Today there are 3 a's!")
 elif b < c:
-    print("a equals 1")
+    print("Today there are 1 a's!")
 else:
-    print("a equals 0")
+    print("Today there are 0 a's!.... There should NEVER be 0 a's")
 # End
