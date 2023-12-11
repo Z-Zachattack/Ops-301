@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" modified="2023-12-11T23:18:27.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WfhH7edw2niOD_i_W-CN" version="22.1.7" type="github">
+  <diagram name="Page-1" id="CdFyWuu7mZfADsBGeCwA">
+    <mxGraphModel dx="1376" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-4" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="520" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-5" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="380" y="430" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-8" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="9oPIyIbZ-EvlBXnKMK6W-4" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="200" y="230" as="sourcePoint" />
+            <mxPoint x="310" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="QhET0AG_YlZGoIZ--8q6-3" target="9oPIyIbZ-EvlBXnKMK6W-4" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="660.3311258278145" y="420" as="sourcePoint" />
+            <mxPoint x="310" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-10" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.497;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;width=17;endSize=12.45;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-5" target="9oPIyIbZ-EvlBXnKMK6W-4" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="210" y="470" as="sourcePoint" />
+            <mxPoint x="310" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QhET0AG_YlZGoIZ--8q6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-11" target="QhET0AG_YlZGoIZ--8q6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-11" value="The Internet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="33.93" y="20" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-12" target="9oPIyIbZ-EvlBXnKMK6W-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-12" value="pfsense&lt;br&gt;Nat Network&lt;br&gt;(em0) WAN: 10.0.2.15&lt;br&gt;&lt;br&gt;Internal Network&lt;br&gt;(em1) LAN: 192.168.1.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="484.40000000000003" y="60" width="151.2" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-15" target="9oPIyIbZ-EvlBXnKMK6W-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-15" value="Hostname: Windows&lt;br&gt;OS: Windows 10&lt;br&gt;&lt;br&gt;Internal Network&lt;br&gt;LAN: 192.168.1.1&lt;br&gt;Gateway: 192.168.1.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="318.7" y="560" width="185" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9oPIyIbZ-EvlBXnKMK6W-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="681.2000000000003" y="482.4000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9oPIyIbZ-EvlBXnKMK6W-19" value="Hostname: WIN-442QLKFH2C&lt;br&gt;OS: Windows Server 2019&lt;br&gt;&lt;br&gt;Internal Network&lt;br&gt;LAN: 192.168.1.200&lt;br&gt;Gateway: 192.168.1.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="574.3000000000001" y="570" width="213.8" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QhET0AG_YlZGoIZ--8q6-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="167.86" height="105.75" as="geometry" />
+        </mxCell>
+        <mxCell id="QhET0AG_YlZGoIZ--8q6-3" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="641.2" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
