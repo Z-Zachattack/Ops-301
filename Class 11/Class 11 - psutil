@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+
+# Script Name:                  Ops-301d10 - Class 11
+# Author:                       Zachariah Woodbridge
+# Date of latest revision:      11 Dec 2023
+# Purpose:                      Ops Challenge: psutil
+
+import psutil
+
+# Declaration of variables
+
+# Time spent by normal processes executing in user mode
+normal_user_time = cpu_times.user
+
+# Time spent by processes executing in kernel mode
+kernal_time = cpu_times.system
+
+# Time when system was idle
+sys_idle_time = cpu_times.idle
+
+# Time spent by priority processes executing in user mode
+priority_user_time = cpu_times.nice
+
+# Time spent waiting for I/O to complete
+io_time = cpu_times.iowait
+
+# Time spent for servicing hardware interrupts
+hardware_interrupts_time = cpu_times.irq
+
+# Time spent for servicing software interrupts
+software_interrupts_time = cpu_times.softirq
+
+# Time spent by other operating systems running in a virtualized environment
+virtual_env_time = cpu_times.steal
+
+# Time spent running a virtual CPU for guest operating systems
+v_cpu_guest_time = cpu_times.guest
+
+# Declaration of functions
+
+# Main 
+
+# Prints the output of all the variables
+print(f"Time spent by normal processes executing in user mode: {normal_user_time}\n"
+      f"Time spent by processes executing in kernel mode: {kernal_time}\n"
+      f"Time when system was idle: {sys_idle_time}\n"
+      f"Time spent by priority processes executing in user mode: {priority_user_time}\n"
+      f"Time spent waiting for I/O to complete: {io_time}\n"
+      f"Time spent for servicing hardware interrupts: {hardware_interrupts_time}\n"
+      f"Time spent for servicing software interrupts: {software_interrupts_time}\n"
+      f"Time spent by other operating systems running in a virtualized environment: {virtual_env_time}\n"
+      f"Time spent running a virtual CPU for guest operating systems: {v_cpu_guest_time}")
+
+
+# End
