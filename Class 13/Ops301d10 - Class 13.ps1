@@ -1,7 +1,7 @@
 # Script Name:                  Ops301d10 - Class 13
 # Author:                       Zachariah Woodbridge
 # Date of latest revision:      13 Dec 2023
-# Purpose:                      Powershell Active Directory
+# Purpose:                      Powershell AD Automation Overview
 
 # Import the Active Directory module
 Import-Module ActiveDirectory
