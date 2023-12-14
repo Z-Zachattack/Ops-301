@@ -6,6 +6,31 @@
 # Import the Active Directory module
 Import-Module ActiveDirectory
 
+
+# Declaration of variables
+
+# Prompt for user details
+$firstName = "Franz"
+$lastName = "Ferdinand"
+$title = "TPS Reporting Lead"
+$department = "TPS"
+$company = "GlobeX USA"
+$location = "Springfield OR"
+
+# Build email address
+$emailAddress = "$firstName@GlobeXpower.com"
+
+# Build UPN logon
+$upn = "$firstName@GlobeXpower.com"
+
+# Build organizational unit path
+$ouPath = "OU=$department,OU=GlobeX USA,DC=GlobeXpower,DC=com"
+
+
 # Main
-New-ADUser -Name "Franz Ferdinand" -Department "TPS Department" -Title "TPS Reporting lead" -Company "Globex USA" -City "Springfield" -State "Oregon" -EmailAddress "ferdi@GlobeXpower.com"
+# Create new user
+New-ADUser -Name "$firstName $lastName" -SamAccountName "$firstName$lastName" -Title $title -Department $department -Company $company -EmailAddress $emailAddress -UserPrincipalName $upn -Path $ouPath -Description "$firstName $lastName is the $title at $company in $location office." -PasswordNeverExpires:$true
+
+# Optional: Display confirmation message
+Write-Host "User $firstName $lastName created successfully!"
 # End
