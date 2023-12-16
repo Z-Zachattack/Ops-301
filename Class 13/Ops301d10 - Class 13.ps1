@@ -16,6 +16,7 @@ $title = "TPS Reporting Lead"
 $department = "TPS"
 $company = "GlobeX USA"
 $location = "Springfield OR"
+$password = "SolarWinds123!@#" -AsSecureString
 
 # Build email address
 $emailAddress = "$firstName@GlobeXpower.com"
@@ -29,7 +30,7 @@ $ouPath = "OU=$department,OU=GlobeX USA,DC=GlobeXpower,DC=com"
 
 # Main
 # Create new user
-New-ADUser -Name "$firstName $lastName" -SamAccountName "$firstName$lastName" -Title $title -Department $department -Company $company -EmailAddress $emailAddress -UserPrincipalName $upn -Path $ouPath -Description "$firstName $lastName is the $title at $company in $location office." -PasswordNeverExpires:$true
+New-ADUser -Name "$firstName $lastName" -SamAccountName "$firstName$lastName" -Title $title -Department $department -Company $company -EmailAddress $emailAddress -UserPrincipalName $upn -Path $ouPath -Description "$firstName $lastName is the $title at $company in $location office." -AccountPassword $password -PasswordNeverExpires:$true
 
 # Optional: Display confirmation message
 Write-Host "User $firstName $lastName created successfully!"
