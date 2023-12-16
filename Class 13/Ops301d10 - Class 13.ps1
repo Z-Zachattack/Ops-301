@@ -10,14 +10,14 @@ Import-Module ActiveDirectory
 # Declaration of variables
 
 # Prompt for user details
-$firstName = "Franz"
+$firstName = "Franz1"
 $lastName = "Ferdinand"
 $title = "TPS Reporting Lead"
 $department = "TPS"
 $company = "GlobeX USA"
 $location = "Springfield OR"
 $password = "SolarWinds123!@#" -AsSecureString
-
+$password = Read-Host -Prompt "Enter password" -AsSecureString
 # Build email address
 $emailAddress = "$firstName@GlobeXpower.com"
 
